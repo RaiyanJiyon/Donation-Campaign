@@ -10,9 +10,6 @@ const Root = () => {
     return (
         <div>
             <NavBar />
-            {
-            location.pathname === "/" && <Banner />
-            }
             <Outlet />
             <Footer />
         </div>
