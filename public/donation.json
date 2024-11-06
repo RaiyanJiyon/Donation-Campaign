@@ -1,0 +1,134 @@
+[
+    {
+        "id": 1,
+        "picture": "https://img.freepik.com/premium-photo/photo-is-must-everyday-work-ai-generated-best-wonderful-photo_1070043-249237.jpg?w=900",
+        "title": "Clean Water for Rural Villages",
+        "category": "Health",
+        "category_bg": "#87CEEB",
+        "card_bg": "#E0FFFF",
+        "text_button_bg": "#1E90FF",
+        "description": "Millions lack access to clean drinking water. This project provides clean water sources in rural areas, significantly reducing waterborne illnesses and improving overall health. Your support helps deliver sustainable solutions for clean water.",
+        "price": 200
+    },
+    {
+        "id": 2,
+        "picture": "https://img.freepik.com/free-photo/top-view-assortment-education-day-elements_23-2148721208.jpg?t=st=1730878822~exp=1730882422~hmac=17204aa645632ba24598a41460454a3d433d8c2a536443d2265e252484c09652&w=826",
+        "title": "School Supplies for Kids",
+        "category": "Education",
+        "category_bg": "#FFB6C1",
+        "card_bg": "#FFF0F5",
+        "text_button_bg": "#DC143C",
+        "description": "Many children lack the essential school supplies needed for their education. This program provides books, stationery, and uniforms to underprivileged students, enabling them to fully participate in learning. Help us equip kids for a brighter future.",
+        "price": 120
+    },
+    {
+        "id": 3,
+        "picture": "https://img.freepik.com/free-photo/bearded-sick-man-with-flue-sitting-sofa-home-studio-covered-with-knitted-warm-clothes-illness-influenza-concept-relaxation-home-healthcare-concepts_155003-17518.jpg?t=st=1730878891~exp=1730882491~hmac=04ff8243f24e41edee4156eb62b609201a02646166dd7bae66bb909a85ec3b1e&w=826",
+        "title": "Winter Blankets for Homeless",
+        "category": "Clothing",
+        "category_bg": "#98FB98",
+        "card_bg": "#F0FFF0",
+        "text_button_bg": "#32CD32",
+        "description": "Winter is harsh for those without shelter. This drive provides warm blankets to homeless individuals, helping them survive cold nights with dignity. Your donation can provide warmth and protection for those in need.",
+        "price": 80
+    },
+    {
+        "id": 4,
+        "picture": "https://img.freepik.com/free-photo/children-prepare-salan-kitchen_1157-33494.jpg?t=st=1730878941~exp=1730882541~hmac=1ccd24610b0b94cb1d666519fab79265fa4fd70af86e20077dbc9dd66b8203b0&w=826",
+        "title": "Nutritious Meals for Children",
+        "category": "Food",
+        "category_bg": "#FFD700",
+        "card_bg": "#FFFAF0",
+        "text_button_bg": "#FFA500",
+        "description": "Proper nutrition is essential for children's growth. This project supplies balanced meals to malnourished children in impoverished areas, promoting health and development. Your support nourishes young lives and aids in their growth.",
+        "price": 180
+    },
+    {
+        "id": 5,
+        "picture": "https://img.freepik.com/free-photo/close-up-young-adult-working-office_23-2149161645.jpg?t=st=1730878989~exp=1730882589~hmac=ae52611fb831435c021c8e7a052266b04b8a72953918cefba94acebfd9deb336&w=826",
+        "title": "Empowering Women Through Education",
+        "category": "Empowerment",
+        "category_bg": "#FF69B4",
+        "card_bg": "#FFE4E1",
+        "text_button_bg": "#FF1493",
+        "description": "Education for women can uplift entire communities. This initiative funds educational programs and vocational training for women, empowering them with skills and knowledge for a better future. Support women’s journey towards independence.",
+        "price": 250
+    },
+    {
+        "id": 6,
+        "picture": "https://img.freepik.com/free-photo/electric-farm-with-panels-producing-clean-ecologic-energy_169016-17846.jpg?t=st=1730879033~exp=1730882633~hmac=aae5f72e2bc891e09b062c9b2e871b887b57239b0b1d7bee2fd10d2f661ce1ca&w=826",
+        "title": "Renewable Energy in Remote Areas",
+        "category": "Environment",
+        "category_bg": "#8FBC8F",
+        "card_bg": "#F5FFFA",
+        "text_button_bg": "#2E8B57",
+        "description": "Access to electricity is a challenge in remote areas. This project provides solar panels and renewable energy solutions to communities without power, enabling sustainable development. Help bring light to those living off the grid.",
+        "price": 300
+    },
+    {
+        "id": 7,
+        "picture": "https://img.freepik.com/premium-photo/brother-sister-having-fun-wash-tub-hygiene-health-family_100708-412.jpg?w=826",
+        "title": "Child Hygiene Education",
+        "category": "Health",
+        "category_bg": "#ADD8E6",
+        "card_bg": "#F0FFFF",
+        "text_button_bg": "#4682B4",
+        "description": "Teaching children about hygiene is vital for preventing disease. This program educates young ones on basic hygiene practices like handwashing, reducing illness and improving health outcomes. Contribute to a healthier future for children.",
+        "price": 110
+    },
+    {
+        "id": 8,
+        "picture": "https://img.freepik.com/premium-photo/close-up-boy-sits-staring-laptop-his-hand-is-holding-mouse-educational_233554-527.jpg?w=740",
+        "title": "Digital Literacy Program",
+        "category": "Education",
+        "category_bg": "#FFE4B5",
+        "card_bg": "#FFFACD",
+        "text_button_bg": "#FFA07A",
+        "description": "In today's world, digital literacy is a necessity. This program provides computer training and internet access to underprivileged youth, helping them acquire valuable digital skills. Empower young minds with technology skills.",
+        "price": 220
+    },
+    {
+        "id": 9,
+        "picture": "https://img.freepik.com/premium-photo/covid19-vaccine-booster-deployed-yogyakarta-25-february-2023_539117-352.jpg?w=826",
+        "title": "Community Health Checkups",
+        "category": "Health",
+        "category_bg": "#FF6347",
+        "card_bg": "#FFE4E1",
+        "text_button_bg": "#FF4500",
+        "description": "Regular health checkups are key to preventing disease. This project organizes free health camps in underserved communities, offering basic health services and consultations. Join us in promoting accessible healthcare for all.",
+        "price": 140
+    },
+    {
+        "id": 10,
+        "picture": "https://img.freepik.com/free-photo/young-boy-his-father-planting-tree-outdoors_23-2148814074.jpg?t=st=1730879274~exp=1730882874~hmac=ee85e8a75b449f01bd6b293f38e1f8c6529d764f0b1c288a4c4f54638c500fbc&w=900",
+        "title": "Urban Tree Planting",
+        "category": "Environment",
+        "category_bg": "#32CD32",
+        "card_bg": "#F0FFF0",
+        "text_button_bg": "#228B22",
+        "description": "Urban areas often lack green spaces. This initiative plants trees in cities, improving air quality and beautifying neighborhoods. Support a greener future by contributing to our urban tree planting project.",
+        "price": 90
+    },
+    {
+        "id": 11,
+        "picture": "https://img.freepik.com/free-photo/woman-holding-pen-empty-sheet-thinking-what-write-high-quality-photo_144627-73109.jpg?t=st=1730879317~exp=1730882917~hmac=730313a9f06d1104c23997d948469e2b6210ea62192e2b1807548286691399e4&w=826",
+        "title": "Scholarships for Girls",
+        "category": "Education",
+        "category_bg": "#FF69B4",
+        "card_bg": "#FFF0F5",
+        "text_button_bg": "#FF1493",
+        "description": "Education is a right for every child. This program offers scholarships to girls from low-income families, helping them pursue their dreams without financial barriers. Invest in young girls' futures by supporting this cause.",
+        "price": 300
+    },
+    {
+        "id": 12,
+        "picture": "https://img.freepik.com/premium-photo/close-up-donation-boxes-stacking-wooden-table-with-food-stocks-refugees-outdoors_274679-28215.jpg?w=826",
+        "title": "Disaster Relief Fund",
+        "category": "Relief",
+        "category_bg": "#FFA07A",
+        "card_bg": "#FFE4C4",
+        "text_button_bg": "#FF8C00",
+        "description": "Natural disasters leave communities devastated. This fund provides immediate relief and essential supplies to affected families, aiding them in the aftermath of disasters. Your donation brings hope and support to those in crisis.",
+        "price": 350
+    }
+]
