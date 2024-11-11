@@ -1,6 +1,7 @@
 import React from 'react';
-import Banner from '../Banner/Banner';
-import Donation from '../Donation/Donation';
+import Banner from '../components/Banner/Banner';
+import Donation from '../components/DonationCards/Donation';
+
 
 const Home = () => {
     return (
