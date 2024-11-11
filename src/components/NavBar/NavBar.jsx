@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import logoImage from "../../assets/Logo.png";
 
 const NavBar = () => {
@@ -64,9 +64,9 @@ const NavBar = () => {
             {link}
           </ul>
         </div>
-        <a className="hidden lg:flex btn btn-ghost text-xl">
+        <Link to={"/"} className="hidden lg:flex btn btn-ghost text-xl">
           <img className="w-40" src={logoImage} alt={`${logoImage} image`} />
-        </a>
+        </Link>
       </div>
       <div className="navbar-center hidden lg:flex"></div>
       <div className="navbar-end">

@@ -2,11 +2,10 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 const DonateCard = ({ data }) => {
-    console.log(data)
     const {id, picture, title, category, category_bg, card_bg, text_button_bg, description, price} = data;
 
     return (
-        <NavLink className="card card-compact rounded-lg shadow-lg cursor-pointer" style={{backgroundColor: card_bg}}>
+        <NavLink to={`/donation/${id}`} className="card card-compact rounded-lg shadow-lg cursor-pointer" style={{backgroundColor: card_bg}}>
             <figure>
                 <img
                 className='w-[312px], h-[194px]'
