@@ -2,6 +2,7 @@ import React from 'react';
 import { useLoaderData } from 'react-router-dom';
 import { PieChart, Pie, Cell, ResponsiveContainer } from 'recharts';
 import { getToDonation } from '../util/addToDb';
+import { Helmet } from 'react-helmet';
 
 const Statistics = () => {
     const totalDonations = useLoaderData();
@@ -35,6 +36,9 @@ const Statistics = () => {
 
     return (
         <div style={{ width: '100%', height: '500px', marginBottom: '100px' }}>
+            <Helmet>
+                <title>Statistics | Donation Campaign</title>
+            </Helmet>
             <ResponsiveContainer>
                 <PieChart>
                     <Pie
@@ -53,7 +57,7 @@ const Statistics = () => {
                     </Pie>
                 </PieChart>
             </ResponsiveContainer>
-            
+
             <div className='flex flex-col md:flex-row justify-center gap-12 md:w-1/2 mx-auto -mt-10'>
                 <div className='flex justify-center items-center gap-4'>
                     <h3 className='font-medium'>Your Donation</h3>

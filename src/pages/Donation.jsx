@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { getToDonation } from '../util/addToDb';
 import { Link, useLoaderData } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 const Donation = () => {
     const [showAll, setShowAll] = useState(false);
@@ -14,6 +15,9 @@ const Donation = () => {
 
     return (
         <div className='w-11/12 mx-auto mt-10 pb-10 '>
+            <Helmet>
+                <title>Donation | Donation Campaign</title>
+            </Helmet>
             <div className='grid lg:grid-cols-2 gap-6'>
                 {
                     donationsToShow.map(donation => (

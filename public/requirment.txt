@@ -43,5 +43,5 @@ Bonus Requirements
 
 1) You will need to make the search button functional. In the search bar, users can input categories to search for donations. When a category is entered into the search bar, clicking the search button will display only the donations that match the specified category on the homepage.
 2) Your Readme file will have at least 3 project features. Add at least five meaningful github commits.
-3) Make a 404 route. Reloading the web app should not show a page not found error.
-4) The website should be responsive in all devices: desktop, mobile and tablet views. The responsive layout is up to you.
+3) Make a 404 route. Reloading the web app should not show a page not found error. ✅
+4) The website should be responsive in all devices: desktop, mobile and tablet views. The responsive layout is up to you. ✅

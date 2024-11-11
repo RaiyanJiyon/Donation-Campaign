@@ -12,6 +12,7 @@ import Donation from "./pages/Donation";
 import DonationDetails from "./pages/DonationDetails";
 import { ToastContainer } from "react-toastify";
 import ErrorPage from "./pages/ErrorPage";
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 const router = createBrowserRouter([
   {
@@ -44,7 +45,9 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
-    <ToastContainer />
+    <HelmetProvider>
+      <RouterProvider router={router} />
+      <ToastContainer />
+    </HelmetProvider>
   </React.StrictMode>
 );
