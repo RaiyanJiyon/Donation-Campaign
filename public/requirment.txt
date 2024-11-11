@@ -26,7 +26,7 @@ Main Requirements
    ● Description ✅
    ● Donate button having the price ✅
    Note: Make sure that the Donate button background color matches with the text color of the Card in the Homepage. The picture will have an overlay with the Donate button at the left. See figma. ✅
-   On clicking the Donate Button, you will have to show a toast/ sweet alert informing the user with a meaningful success message. Do not use the browser alert.
+   On clicking the Donate Button, you will have to show a toast/ sweet alert informing the user with a meaningful success message. Do not use the browser alert. ✅
 8) Donation page: The Donation Page will show all the donations you have made. Each row will have 2 cards. Each card will have the following:
    ● Picture
    ● Category

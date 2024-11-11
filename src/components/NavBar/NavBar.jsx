@@ -5,7 +5,6 @@ import logoImage from "../../assets/Logo.png";
 const NavBar = () => {
   const link = (
     <>
-      <li>
         <NavLink
           to={"/"}
           className={({ isActive }) =>
@@ -14,8 +13,7 @@ const NavBar = () => {
         >
           Home
         </NavLink>
-      </li>
-      <li>
+
         <NavLink
           to={"/donation"}
           className={({ isActive }) =>
@@ -24,8 +22,7 @@ const NavBar = () => {
         >
           Donation
         </NavLink>
-      </li>
-      <li>
+
         <NavLink
           to={"/statistics"}
           className={({ isActive }) =>
@@ -34,7 +31,6 @@ const NavBar = () => {
         >
           Statistics
         </NavLink>
-      </li>
     </>
   );
   return (
@@ -70,10 +66,10 @@ const NavBar = () => {
       </div>
       <div className="navbar-center hidden lg:flex"></div>
       <div className="navbar-end">
-        <a className="lg:hidden btn btn-ghost text-xl">
+        <Link className="lg:hidden btn btn-ghost text-xl">
           <img className="w-40" src={logoImage} alt={`${logoImage} image`} />
-        </a>
-        <ul className="hidden lg:flex menu menu-horizontal px-1 gap-4">
+        </Link>
+        <ul className="hidden lg:flex menu menu-horizontal px-1 gap-12">
           {link}
         </ul>
       </div>

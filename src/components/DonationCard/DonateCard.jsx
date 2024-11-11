@@ -5,7 +5,7 @@ const DonateCard = ({ data }) => {
     const {id, picture, title, category, category_bg, card_bg, text_button_bg, description, price} = data;
 
     return (
-        <NavLink to={`/donation/${id}`} className="card card-compact rounded-lg shadow-lg cursor-pointer" style={{backgroundColor: card_bg}}>
+        <NavLink to={`/home/${id}`} className="card card-compact rounded-lg shadow-lg cursor-pointer" style={{backgroundColor: card_bg}}>
             <figure>
                 <img
                 className='w-[312px], h-[194px]'
