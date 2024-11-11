@@ -33,9 +33,9 @@ Main Requirements
    ● Title ✅
    ● Price ✅
    ● View Details button ✅
-   Note: Make sure that the background color of the card matches with the background color of the card in the homepage. The category text, price and the background of the View details button will have the same color as shown in the figma. Also, there will be a background for the category.
+   Note: Make sure that the background color of the card matches with the background color of the card in the homepage. The category text, price and the background of the View details button will have the same color as shown in the figma. Also, there will be a background for the category. ✅
    The See All button on the Donation page will appear when the Donation cards are more than 4. On clicking the See All button the remaining data will be shown and the See All button will be hidden. You can change the color of the See All button if you want.
-   Making the View Details button functional is optional.
+   Making the View Details button functional is optional. ✅
 9) Statistics page: Create a statistics page where you will have to implement a pie chart. You cannot use a line chart or any other charts. You will only have to implement a pie chart. The pie chart will be on your donations against the total donations.
    For example: you made 4 donations and the total donations is 12. Calculate the percentage and show it on your pie chart. Follow the figma.
 
