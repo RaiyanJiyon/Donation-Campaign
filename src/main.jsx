@@ -11,10 +11,12 @@ import Statistics from "./pages/Statistics";
 import Donation from "./pages/Donation";
 import DonationDetails from "./pages/DonationDetails";
 import { ToastContainer } from "react-toastify";
+import ErrorPage from "./pages/ErrorPage";
 
 const router = createBrowserRouter([
   {
     path: "/",
+    errorElement: <ErrorPage />,
     element: <Root />,
     children: [
       {
