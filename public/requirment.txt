@@ -3,9 +3,9 @@ Mi-8 Assignment
 Main Requirements
 
 1) Follow the figma design: Your website design should be similar to the figma.
-2) A navbar with a website logo on the left side & 3 menu items on the right side: Home, Donation, Statistics. Make sure to apply Active route on the navbar & the navbar will be displayed in all pages.
+2) A navbar with a website logo on the left side & 3 menu items on the right side: Home, Donation, Statistics. Make sure to apply Active route on the navbar & the navbar will be displayed in all pages. ✅
 3) A banner section having: title, search bar, background image with overlay. Covering the background image from navbar to banner is optional. However, covering only the banner section with the background image is mandatory.
-4) Create a json file having at least 12 data. Each data should have:
+4) Create a json file having at least 12 data. Each data should have: ✅
    a) Picture
    b) Title
    c) Category
@@ -14,18 +14,18 @@ Main Requirements
    f) Color for text and button background
    g) Description
    h) Price
-5) Home page: Create a section where there will be at least 12 cards. Arrange the cards according to the figma. 4 cards in a row.
+5) Home page: Create a section where there will be at least 12 cards. Arrange the cards according to the figma. 4 cards in a row. ✅
    Note: Each card will have 3 different colors:
-   ● Background Color for card,
-   ● Background Color for category and
-   ● Color for title and category text. The color of the text of the category and the title will be the same. See figma.
-6) On clicking a card, the user will be redirected to the Donation Details page where he/she will be able to see the details of the Donation.
+   ● Background Color for card, ✅
+   ● Background Color for category and ✅
+   ● Color for title and category text. The color of the text of the category and the title will be the same. See figma. ✅
+6) On clicking a card, the user will be redirected to the Donation Details page where he/she will be able to see the details of the Donation. ✅
 7) Donation Details Page: This will be a dynamic route. The Donation details page will have the following:
-   ● Picture
-   ● Title
-   ● Description
-   ● Donate button having the price
-   Note: Make sure that the Donate button background color matches with the text color of the Card in the Homepage. The picture will have an overlay with the Donate button at the left. See figma.
+   ● Picture ✅
+   ● Title ✅
+   ● Description ✅
+   ● Donate button having the price ✅
+   Note: Make sure that the Donate button background color matches with the text color of the Card in the Homepage. The picture will have an overlay with the Donate button at the left. See figma. ✅
    On clicking the Donate Button, you will have to show a toast/ sweet alert informing the user with a meaningful success message. Do not use the browser alert.
 8) Donation page: The Donation Page will show all the donations you have made. Each row will have 2 cards. Each card will have the following:
    ● Picture
