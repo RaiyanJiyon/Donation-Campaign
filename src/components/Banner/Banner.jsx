@@ -1,15 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
 import bannerImage from "../../assets/banner.webp";
 
-const Banner = () => {
-  const handleSearchInput = () => {
-    console.log("Search")
+const Banner = ({donations}) => {
+  const [searchQuery, setSearchQuery] = useState("");
+  const [filteredDonations, setFilteredDonations] = useState(donations);
+
+  const handleSearchInputChange =(event) => {
+    setSearchQuery(event.target.value);
+    console.log(searchQuery)
   }
+
+  const handleSearchInput = () => {
+    
+  }
+
   return (
     <div
       className="w-11/12 mx-auto mt-6 hero"
       style={{
-        backgroundImage: `url(https://img.freepik.com/free-photo/happy-volunteers-hugging-each-other-while-preparing-donation-boxes_23-2148732640.jpg?t=st=1731312145~exp=1731315745~hmac=97c1a6cfa842a1b6dc759678c688e251a108f99e0d8c4f3c348b0de9cf9f52b8&w=826)`,
+        backgroundImage: `url(${bannerImage})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
@@ -26,6 +35,7 @@ const Banner = () => {
               type="text"
               placeholder="Search here...."
               className="input input-bordered join-item w-full"
+              onChange={handleSearchInputChange}
             />
             <button onClick={handleSearchInput} className="btn bg-[#FF444A] text-white font-bold border-none join-item">
               Search
