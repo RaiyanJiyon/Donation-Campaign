@@ -8,7 +8,7 @@ const Root = () => {
     const location = useLocation();
 
     return (
-        <div>
+        <div className='max-w-7xl mx-auto'>
             <NavBar />
             <div className="min-h-[calc(100vh-300px)]">
                 <Outlet />

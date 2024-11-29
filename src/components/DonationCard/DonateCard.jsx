@@ -8,7 +8,7 @@ const DonateCard = ({ data }) => {
         <NavLink to={`/home/${id}`} className="card card-compact rounded-lg shadow-lg cursor-pointer" style={{backgroundColor: card_bg}}>
             <figure>
                 <img
-                className='w-[312px], h-[194px]'
+                className='w-full md:w-[312px], h-[194px]'
                     src={picture}
                     alt={`${picture} image`} />
             </figure>

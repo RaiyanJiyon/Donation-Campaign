@@ -18,24 +18,33 @@ const Donation = () => {
             <Helmet>
                 <title>Donation | Donation Campaign</title>
             </Helmet>
-            <div className='grid lg:grid-cols-2 gap-6'>
-                {
-                    donationsToShow.map(donation => (
-                        <div key={donation.id} className='flex flex-col md:flex-row rounded-lg' style={{ backgroundColor: donation.card_bg }}>
-                            <div className='md:w-2/5'>
-                                <img className='w-full h-full rounded-l-lg' src={donation.picture} alt="" />
-                            </div>
-                            <div className='m-4 space-y-3'>
-                                <button className='btn btn-sm font-bold' style={{ backgroundColor: donation.category_bg, color: donation.text_button_bg }}>{donation.category}</button>
-                                <h2 className='text-2xl font-bold md:min-h-16'>{donation.title}</h2>
-                                <p className='text-sm font-semibold' style={{ color: donation.text_button_bg }}>${donation.price.toFixed(2)}</p>
-                                <Link className='btn font-bold text-white' style={{ backgroundColor: donation.category_bg }}>View Details</Link>
-                            </div>
-                        </div>
-                    ))
-                }
-            </div>
 
+            {
+                filteredDonations.length > 0 ?
+                    <div className='grid lg:grid-cols-2 gap-6'>
+                        {
+                            donationsToShow.map(donation => (
+                                <div key={donation.id} className='flex flex-col md:flex-row rounded-lg' style={{ backgroundColor: donation.card_bg }}>
+                                    <div className='md:w-2/5'>
+                                        <img className='w-full h-full rounded-l-lg' src={donation.picture} alt="" />
+                                    </div>
+                                    <div className='m-4 space-y-3'>
+                                        <button className='btn btn-sm font-bold' style={{ backgroundColor: donation.category_bg, color: donation.text_button_bg }}>{donation.category}</button>
+                                        <h2 className='text-2xl font-bold md:min-h-16'>{donation.title}</h2>
+                                        <p className='text-sm font-semibold' style={{ color: donation.text_button_bg }}>${donation.price.toFixed(2)}</p>
+                                        <Link className='btn font-bold text-white' style={{ backgroundColor: donation.category_bg }}>View Details</Link>
+                                    </div>
+                                </div>
+                            ))
+                        }
+                    </div>
+                    :
+                    <div className='h-screen flex flex-col items-center justify-center'>
+                        <h1 className='text-4xl font-bold'>No Donation Is Done Yet</h1>
+                        <p>Please add donation for see all your donation list.</p>
+                    </div>
+
+            }
             {
                 !showAll && filteredDonations.length > 4 &&
                 <div className='flex justify-center mt-10'>

@@ -27,7 +27,7 @@ const DonationDetails = () => {
                 <title>{title}</title>
             </Helmet>
             <div className='relative'>
-                <img className='rounded-lg w-full h-[700px] object-fill' src={picture} alt="" />
+                <img className='rounded-lg w-full h-80 md:h-[700px] object-fill' src={picture} alt="" />
                 <div className='absolute bottom-0 w-full bg-[#0B0B0B80] rounded-b-lg py-8 pl-8'>
                     <button onClick={() => handleDonate(donateId)} className='btn btn-lg border-none text-white font-semibold' style={{ backgroundColor: category_bg }}>Donate ${price}</button>
                 </div>
